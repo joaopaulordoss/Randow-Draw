@@ -19,12 +19,12 @@
 
     <main>
         <h2>Sortear um Número</h2>
-        <div>
-            <input placeholder="entre" class="input-value-between">
-            <input placeholder="e" class="input-value-and">
+        <div class="input-container">
+            <input placeholder="Entre" class="input-value-min" type="number">
+            <input placeholder="e" class="input-value-max" type="number">
         </div>
-        
-        <button class="button-draw">Sortear</button>
+
+        <button onclick="generateNumber()" class="button-draw">Sortear</button>
     </main>
 
     <footer>
